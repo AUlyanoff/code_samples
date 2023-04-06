@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# 32999 автообновление архива  OpenAPI+SOWA для Сбера
+python .git/hooks/prepare-commit-msg.py $1 $2
+
+exit 0
